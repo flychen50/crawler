@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<template>
+	<page>
+		<save_m root="//tr[@id]">
+			<field>
+				<name>Price</name>
+				<xpath>./td[@class='price']</xpath>
+			</field>
+		</save_m>
+	</page>
+</template>

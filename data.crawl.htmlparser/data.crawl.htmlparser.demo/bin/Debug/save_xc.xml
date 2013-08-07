@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<template>
+	<page>
+		<save root=".">
+			<field>
+				<name>Name</name>
+				<xpath>//h1</xpath>
+			</field>
+			<field>
+				<name>EngName</name>
+				<xpath>//div[@class='name']/h2</xpath>
+			</field>
+			<field>
+				<name>Star</name>
+				<xpath>//div[@class='grade']/span/@title</xpath>
+			</field>
+			<field>
+				<name>Address</name>
+				<xpath>//div[@class='adress']</xpath>
+			</field>
+			<field>
+				<name>Description</name>
+				<xpath>//*[@id="htlDes"]</xpath>
+			</field>
+			<field>
+				<name>Facility</name>
+				<xpath position='outerhtml'>//div[@class="htl_info_table "]</xpath>
+			</field>
+			<field>
+				<name>Policy</name>
+				<xpath  position='outerhtml'>//div[@class='detail_main']/div[@class="htl_info_table"]</xpath>
+			</field>
+			<field>
+				<name>Traffic</name>
+				<xpath  position='outerhtml'>//div[@class='transSub'][1]/div[@class="htl_info_table"]</xpath>
+			</field>
+			<field>
+				<name>Nearby</name>
+				<xpath  position='outerhtml'>//div[@class='transSub'][2]/div[@class="htl_info_table"]</xpath>
+			</field>
+		</save>
+	</page>
+</template>

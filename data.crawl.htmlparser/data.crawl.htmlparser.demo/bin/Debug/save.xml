@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<template>
+	<page>
+		<save root=".">
+			<field>
+				<name>Title</name>
+				<xpath>//div[@id='J_Article_Wrap']//h1</xpath>
+			</field>
+			<field>
+				<name>PubTime</name>
+				<xpath>//*[@id='pub_date']</xpath>
+				<regex>
+					<pattern>(\d+)年(\d+)月(\d+)日</pattern>
+					<format>{0}-{1}-{2}</format>
+				</regex>
+			</field>
+			<field>
+				<name>Article</name>
+				<xpath>//*[@id="artibody"]</xpath>
+			</field>
+		</save>
+	</page>
+</template>

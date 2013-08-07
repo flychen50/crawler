@@ -1,0 +1,6 @@
+F:\net\test_2010\data.crawl.htmlparser\data.crawl.htmlparser\bin\Debug\data.crawl.htmlparser.dll
+F:\net\test_2010\data.crawl.htmlparser\data.crawl.htmlparser\bin\Debug\data.crawl.htmlparser.pdb
+F:\net\test_2010\data.crawl.htmlparser\data.crawl.htmlparser\obj\Debug\data.crawl.htmlparser.dll
+F:\net\test_2010\data.crawl.htmlparser\data.crawl.htmlparser\obj\Debug\data.crawl.htmlparser.pdb
+F:\net\test_2010\data.crawl.htmlparser\data.crawl.htmlparser\bin\Debug\HtmlAgilityPack.dll
+F:\net\test_2010\data.crawl.htmlparser\data.crawl.htmlparser\obj\Debug\data.crawl.htmlparser.csprojResolveAssemblyReference.cache
